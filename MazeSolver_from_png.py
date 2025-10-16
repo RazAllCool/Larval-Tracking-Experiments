@@ -1,3 +1,7 @@
+'''This is based on the idea that a video of white larvae on a black background can be binarized, projected, and viewed as a 'map' like a video game.
+It's my belief that a maze solving algorithm, like what's used for NPCs in video games to solve paths, will provide a low CPU/GPU method for solving the 'tracks' of the larvae'''
+
+
 import cv2
 import numpy as np
 import matplotlib.pyplot as plt
@@ -660,4 +664,5 @@ class TemporalPathTracer:
 # Main execution
 if __name__ == "__main__":
     tracer = TemporalPathTracer()
+
     tracer.run()
