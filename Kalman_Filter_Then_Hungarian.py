@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
 """
+NOTE FROM ME TO ME: I need to stop making monolithic scripts and start saving each action as its own script...
 Updated larva_tracker.py
 updated from ver 9- in testing
 An application for multi–animal larva tracking with robust motion modeling.
 It uses a median background model, a Kalman filter for robust tracking,
 bidirectional batch processing (forward and reverse), and a Hungarian assignment
-to merge trajectories. A Tkinter GUI lets you select a video, start a live preview,
+to merge trajectories. A Tkinter GUI lets me select a video, start a live preview,
 and stop tracking safely.
 
 Key updates:
@@ -674,3 +675,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
